@@ -13,6 +13,7 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="icons.css">
 </head>
 
 <body>
@@ -106,13 +107,13 @@
           </article>
 
           <article class="service-card"><span class="service-number">06</span>
-            <div class="service-icon">◎</div>
+            <div class="service-icon"><img src="assets/camera.svg" alt=""></div>
             <h3>Fotografia rápida e normal</h3>
             <p>Fotografias para documentos e sessões simples, com atenção à apresentação.</p>
           </article>
 
           <article class="service-card"><span class="service-number">07</span>
-            <div class="service-icon">✉</div>
+            <div class="service-icon"><img src="assets/send.svg" alt=""></div>
             <h3>Envio por e-mail</h3>
             <p>Enviamos documentos e ficheiros digitais para o endereço indicado.</p>
           </article>
@@ -133,8 +134,15 @@
             <div class="service-icon">✉</div>
             <h3>Produção de Trabalhos escolares</h3>
             <p>Fazemos trabalhos escolares com excelência, qualidade e precisão. Destaca-se dentre a maioria e deixe o
-              seu proximo trabalho em boas mãos</p>
+              seu proximo trabalho em boas mãos.</p>
           </article>
+
+          <article class="service-card"><span class="service-number">11</span>
+            <div class="service-icon">✉</div>
+            <h3>Timbragem</h3>
+            <p>Fazemos um trabalho completo de timbragem de todos os tipos de peças e utensílios.</p>
+          </article>
+
 
           <article class="service-card service-card-note">
             <div class="note-symbol">＋</div>
@@ -164,6 +172,10 @@
           <div><span>03</span>
             <p><b>Praticidade</b><small>Vários serviços essenciais, num único lugar.</small></p>
           </div>
+          <div><span>04</span>
+            <p><b>Dinamismo</b><small>Cuidamos do seu pedido no máximo detalhe e entregamos no prazo combinado.</small>
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -182,8 +194,9 @@
           <div class="contact-detail"><span class="detail-icon">✉</span>
             <div><small>E-MAIL</small><b>jornesgrafica@email.com</b></div>
           </div>
-          <div class="contact-detail"><span class="detail-icon">☎</span>
-            <div><small>INSTAGRAM</small><b>jornesgraficasmartsolution</b></div>
+          <div class="contact-detail"><span class="detail-icon">
+            <img src="./assets/map-pin.svg" alt=""></span>
+            <div><small>ENDEREÇO</small><b>Icolo e Bengo, Kifangondo</b></div>
           </div>
         </div>
 
@@ -210,8 +223,6 @@
               required></textarea>
           </label>
           <button class="button button-dark" type="submit">Enviar mensagem <span>→</span></button>
-          <p class="form-hint" id="formStatus" aria-live="polite">Este formulário demonstra a interface. Para receber
-            mensagens, ligue-o a um serviço de envio ou backend.</p>
         </form>
       </div>
     </section>
@@ -222,8 +233,20 @@
       <a class="brand brand-footer" href="#inicio"><span class="brand-mark">JG</span><span class="brand-name">Jornes
           <b>Gráfica</b><small>IMPRESSÃO & SERVIÇOS</small></span></a>
       <p>Serviços gráficos e digitais com qualidade, cuidado e simplicidade.</p>
-      <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#"
-          aria-label="WhatsApp">◔</a></div>
+
+      <div class="social-icons">
+        <a href="https://facebook.com/Domingos Manuel Domingos" target="_blank">
+          <img src="assets/facebook-brands-solid-full.svg" alt="Facebook" title="Facebook">
+        </a>
+
+        <a href="https://instagram.com/Domingos Paulo Manuel" target="_blank">
+          <img src="assets/instagram-brands-solid-full.svg" alt="Instagram" title="Instagram">
+        </a>
+
+        <a href="https://wa.me/+244942933994" target="_blank">
+          <img src="assets/square-whatsapp-brands-solid-full.svg" alt="WhatsApp" title="WhatsApp">
+        </a>
+      </div>
     </div>
     <div class="container footer-bottom"><span>© <span id="year"></span> Jornes Gráfica. Todos os direitos
         reservados.</span><a href="#inicio">Voltar ao topo ↑</a></div>

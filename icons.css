@@ -1,0 +1,40 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.social-icons a {
+    display: inline-flex;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.social-icons a:hover {
+    transform: translateY(-6px) scale(1.15);
+}
